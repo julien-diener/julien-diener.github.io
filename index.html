@@ -15,31 +15,30 @@ make-smaller-titles: true
 
       <h1 class="header author-header" itemprop="headline">{{ site.title }}</h1>
 
-      <div class="author-text">
-        {{ site.title_description }}
-      </div>
+      <!--div class="author-text"> {{ site.title_description }} </div-->
 
+      <h2 class="header"> <i class="fa fa-exclamation-triangle "></i> In (re)construction... </h1>
+
+        <p></p>
       {% include social_links.html %}
+      <p></p>
+
+      <p> I am Julien Diener, currently living in Paris. This is my personal website.</p>
+
+      <p>
+        I have been coding since I am a kid. After a B.Sc. in Math at the Heriot-Watt University (Edinburgh), 
+        I got a Ph.D. in Computer Graphics at INPG (Grenoble). I then worked in several projects, with physicists, biologists, 
+        and now with quants (the math part of finance). I think I am a good coder, with strong math skill. 
+        But my best specialty is the design of complex numerical workflow in interdisciplinary projects.
+      </p>
+      <p> I consider my-self a Full-Stack Hacker:</p>
+      <ul>
+        <li> <em>Full-Stack</em> because I make decisions based on all involved components and efficiency of the development process </li>
+        <li> <em>Hacker</em> because I like to find and take advantages from the subtleties-that-matter </li>
+      </ul>
     </div>
 
-    {% for post in site.posts limit: site.post_limit %}
-    <div class="col-md-12 main content-panel">
-
-      <div class="articles">
-        <h3>
-          <a href="{{ post.url | prepend: site.baseurl }}">
-            {{ post.title }}
-          </a>
-        </h3>
-        <small class="hidden-xs">{{ post.date | date: "%B %-d, %Y" }}</small>
-        <p> {{ post.summary }} </p>
-
-      </div>
-
-    </div>
-    {% endfor %}
-
-    <small><i><a href="{{ site.baseurl }}/posts/">more...</a></i></small>
+    <small><i><a href="{{ site.baseurl }}/posts/">all posts</a></i></small>
 
   </div>
 </div>

@@ -4,7 +4,7 @@ email: julien.diener@gmail.com
 description: "Julien Diener's personal website"
 baseurl: ""
 url: "http://julien-diener.github.io/"
-title_description: "In progress"
+#title_description: "In progress"
 #title_image: "https://www.gravatar.com/avatar/00000000000000000000000000000000?s=500&d=mm"
 #google_analytics: "UA-20365477-4"
 #disqus_account: cartenoire

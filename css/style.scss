@@ -112,7 +112,7 @@ ul {
 		font-size: 62px;
 		margin-left: -10%;
 		width: 120%;
-	}
+  }
 }
 
 .menu-button {
@@ -255,10 +255,28 @@ ul {
 		@media (min-width: $screen-lg-min) {
 			margin-left: -10%;
 			width: 120%;
-		}
+    }
+    
 	}
 
-	.categories {
+  .reconstruction {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+
+    margin-left: auto;
+    margin-right: auto;
+    width:fit-content;
+    width:-webkit-fit-content;
+    width:-moz-fit-content;
+
+		border:3px solid $front-color;
+		border-radius:15px;
+		-moz-border-radius:15px;
+    -webkit-border-radius:15px;
+  }  
+
+  .categories {
 		font-size: 22px;
 	}
 
@@ -426,8 +444,8 @@ ul {
 	}
 
 	#search-input {
-		position:relative;
-		width: 100%;
+		//position:relative;
+		//width: 100%;
 		padding:6px 15px 6px 30px;
 		margin: 2px;
 		margin-top: 50px;

@@ -8,7 +8,8 @@ layout: default
     <h1 class="header author-header">Search</h1>
 
     <div id="search-container">
-      <input type="text" id="search-input" placeholder="Type here...">
+      <i class="fa fa-search"></i>
+      <input type="text" id="search-input" placeholder="Search words...">
       <div class="col-md-12 content-panel articles">
         <ul id="results-container"><small>Start typing to see some results</small></ul>
       </div>
@@ -26,7 +27,7 @@ layout: default
     searchInput: document.getElementById('search-input'),
     resultsContainer: document.getElementById('results-container'),
     dataSource: '{{ site.baseurl }}/search.json',
-    searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}<\/a><\/li>',
+    searchResultTemplate: '<li style="list-style-type: none"><a href="{url}" title="{desc}"> <i class="fa fa-{thumbnail}"><\/i> {title}<\/a><\/li>',
     noResultsText: 'No results found',
     limit: 10,
     fuzzy: true,

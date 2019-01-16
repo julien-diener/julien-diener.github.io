@@ -1,0 +1,24 @@
+{% assign post = include.post %}
+
+   <div class="col-md-12 content-panel articles">
+
+      <a class="title" href="{{ post.url | prepend: site.baseurl }}">
+          {% if post.thumbnail %}
+            <i class="fa fa-{{ post.thumbnail }}"> </i>
+          {% endif %}
+          {{ post.title }}
+        </a>
+        <p> <small class="subtitle">{{ post.summary }}</small> </p>
+        <div>
+        {{ post.content | markdownify }}
+        </div>
+
+        {% if post.tags and post.tags.size > 0 %}
+        <div class="tags">
+          <small>
+          <i class="fa fa-tags"></i>
+            {{ post.tags | join: ', ' }}
+          </small>
+        </div>
+        {% endif %}
+    </div>

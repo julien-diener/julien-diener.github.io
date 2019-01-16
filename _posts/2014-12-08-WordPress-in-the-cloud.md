@@ -15,7 +15,7 @@ tags:
 
 Here is a simple method to deploy a wordpress server on the redhat cloud and attach it to a domain name, for free.
 
-This is what I have done to host this site at first.
+This is what I have done to host this site [Not anymore, see this post]({{ site.baseurl }}{% post_url 2017-12-01-Wordpress-on-AWS %}).
 
 Create a wordpress server:
 

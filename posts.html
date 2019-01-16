@@ -3,39 +3,25 @@ layout: default
 make-smaller-titles: true
 ---
 
-<div class="container-fluid index single">
+<div class="container-fluid index">
   <div class="row index all-posts">
 
     <h1 class="header author-header">{{ site.author_name }}</h1>
     <h2 class="header" itemprop="headline">All posts</h2>
     <h2 class="header categories" itemprop="headline"><small>grouped by
 
-        <div class="dropdown btn-group">
-          <button class="btn btn-categories dropdown-toggle btn-xs" type="button" data-toggle="dropdown">Years
-            <span class="caret"></span>
-          </button>
-          <ul class="dropdown-menu">
-            <li><a href="{{ site.baseurl }}/posts-by-categories/">Categories</a></li>
-          </ul>
-        </div>
-
-      </small></h2>
+      <div class="dropdown btn-group">
+        <button class="btn btn-categories dropdown-toggle btn-xs" type="button" data-toggle="dropdown">Years
+          <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+          <li><a href="{{ site.baseurl }}/posts-by-categories/">Categories</a></li>
+        </ul>
+      </div>
+    </small></h2>
 
     {% for post in site.posts %}
-    <div class="col-md-12 content-panel articles">
-
-      <a class="title" href="{{ post.url | prepend: site.baseurl }}">
-          {% if post.thumbnail %}
-            <i class="fa fa-{{ post.thumbnail }}"> </i>
-          {% endif %}
-          {{ post.title }}
-        </a>
-        <p> <small class="subtitle">{{ post.summary }}</small> </p>
-        <div>
-        {{ post.content | markdownify }}
-        </div>
-
-    </div>
+      {% include one_post.html post=post %}
     {% endfor %}
 
 </div>

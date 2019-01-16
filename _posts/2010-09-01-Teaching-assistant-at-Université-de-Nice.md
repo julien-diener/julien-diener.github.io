@@ -13,11 +13,11 @@ tags:
  - matlab
 ---
 
-###Research 
+Research 
 
 I participated on a project to study the [measurement of paramecium ciliary beating from video](http://pubs.rsc.org/en/content/articlehtml/2014/ib/c4ib00181h).
 
-###Teaching
+Teaching
 
   - class on [Algorithmic to first year MASS student](https://sites.google.com/site/mass1informatique/)
   - tutorial of [Operating System](http://deptinfo.unice.fr/%7Edalle/wiki/index.php?n=Enseignements.SystemesDExploitation)

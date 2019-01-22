@@ -22,6 +22,6 @@ tags:
  - simulation
 ---
 
-I am one of the original IT of [the ICA](www.the-ica.com) start up. We develop big-compute technologies and BI for financial risk analysis. We use all the new cloud tech that can help us leverage some very high computing and distributed data challenges.
+I am one of the original IT of [the ICA](http://www.the-ica.com) start up. We develop big-compute technologies and BI for financial risk analysis. We use all the new cloud tech that can help us leverage some very high computing and distributed data challenges.
 
 I am one of the leading architect at the ICA. My role span from distributed computing to pricing of derivative products and financial metrics. One of my main specialty is to cope with all expertise of the companies. And as such, I have a central position regarding the design of the main computational workflow.

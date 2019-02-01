@@ -5,9 +5,6 @@ layout: default
 <div class="container-fluid index">
   <div class="row index all-posts">
 
-    <h1 class="header author-header">{{ site.author_name }}</h1>
-    <!-- <h2 class="header" itemprop="headline"> <i class="fa fa-briefcase"></i> Work history </h2> -->
-
     {% for post in site.posts %}
       {% if post.categories contains "job" %}
         {% include one_post.html post=post %}

@@ -30,12 +30,13 @@ $medium-purple:  #480048;
 $regular-purple: #601848;
 $red:            #C04848;
 $orange:         #F07241;
+$main-color:     #2596be;
 
-$front-color: $orange;// #448e8f;
+$front-color: $main-color; 
 $text-color: rgb(231, 231, 231);
 $subtext-color: rgb(209, 206, 206);
-$url-color: rgb(247, 168, 137);
-$hover-color: rgb(255, 218, 148);
+$url-color: $main-color;
+$hover-color: $main-color; //rgb(255, 218, 148);
 
 /* Responsive sizes */
 $screen-sm-min: 768px;
@@ -164,11 +165,12 @@ ul {
   background-color: $dark;
 
   .author-header {
-	font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
     color: $front-color;
     font-size: 28px;
     @media (min-width: $screen-sm-min) {
-	  font-size: 52px;
+	  font-size: 64px;
 	}
   }
 

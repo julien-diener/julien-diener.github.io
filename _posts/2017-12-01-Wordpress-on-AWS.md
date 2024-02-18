@@ -14,9 +14,9 @@ tags:
  - database
 ---
 
-On September 2017, the redhat cloud I used to host my wordpress site changed its structure (and pricing). Ii din't fit my need anymore so moved to AWS which I used at work.
+On September 2017, the redhat cloud I used to host my wordpress site changed its structure (and pricing). It didn't fit my need anymore so I moved my website to AWS, which I used to work with.
 
-This is how this website was deployed
+Here is a summary of what I had to do:
 
 There are lots of tutorial that explained everything (but for solving some critical problem explained below):
 

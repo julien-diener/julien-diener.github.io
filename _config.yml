@@ -37,3 +37,4 @@ kramdown:
 
 permalink: pretty
 exclude: [vendor]
+future: true # allow post with date later than today
